@@ -1,0 +1,14 @@
+<!-- <section class="usermain" *ngIf="users.length > 0">
+    <ul class="user-list">
+      <li *ngFor="let user of users"></li>
+    </ul>
+</section> -->
+
+<table>
+    <th>ID</th>
+    <th>NAME</th>
+    <tr *ngFor = "let user of users">
+      <td>{{user.id}}</td>
+      <td>{{user.name}}</td>
+    </tr>
+</table>
